@@ -7,7 +7,7 @@ include ('includes/header.php');?>
 include ('includes/nav.php');?>
 <div class="container">
     <div class="figure-wrapper">
-        <figure class="effect-layla">
+        <figure class="effectHover">
             <img src="./img/obraz2.jpg" alt="img06">
             <figcaption>
                 <h2>Crazy <span>Layla</span></h2>
@@ -15,7 +15,7 @@ include ('includes/nav.php');?>
                 <a href="#">View more</a>
             </figcaption>
         </figure>
-        <figure class="effect-layla">
+        <figure class="effectHover">
             <img src="./img/obraz2.jpg" alt="img03">
             <figcaption>
                 <h2>Crazy <span>Layla</span></h2>
@@ -23,7 +23,7 @@ include ('includes/nav.php');?>
                 <a href="#">View more</a>
             </figcaption>
         </figure>
-        <figure class="effect-layla">
+        <figure class="effectHover">
             <img src="./img/obraz2.jpg" alt="img03">
             <figcaption>
                 <h2>Crazy <span>Layla</span></h2>

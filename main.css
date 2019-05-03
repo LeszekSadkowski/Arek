@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: gray;
+}
+
 .wrapper {
     max-width: 1600px;
     position: relative;
@@ -75,8 +79,8 @@ nav li {
 
 .hero {
     height: 500px;
-    background-color: #F7BEA7;
-    background-image: url('img/hero-section1.jpg');
+    background-color: #f7bea7;
+    background-image: url("img/hero-section1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -84,13 +88,20 @@ nav li {
 .figure-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 15px
+    padding: 15px 0;
+}
+
+figure {
+    max-width: 400px;
+}
+
+figure img {
+    width: 100%;
 }
 
 .indexInformation {
     padding: 60px 30px;
     height: 600px;
-    background-color: cadetblue;
     background-color: cadetblue;
 }
 
@@ -98,10 +109,28 @@ nav li {
 /*------------cccc-------------*/
 
 
-/*------------general-------------*/
-
-
 /*------------kontakt-------------*/
+
+label {
+    display: none;
+}
+
+#imageHolder {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    right: 0;
+    margin: 0 auto;
+}
+
+#imageHolder li {
+    list-style: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 
 /* --------footer----------- */
@@ -110,8 +139,8 @@ footer {
     display: flex;
     height: 120px;
     align-items: center;
-    background-color: #F7BEA7;
-    padding: 15px
+    background-color: #f7bea7;
+    padding: 15px;
 }
 
 
