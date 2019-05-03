@@ -1,6 +1,6 @@
     </div>
     <div class="footerWrapper">
-        <footer><p>lol</p></footer>
+        <footer></footer>
     </div>
     </body>
 
