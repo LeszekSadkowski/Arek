@@ -1,0 +1,27 @@
+/*------------general-------------*/
+a{
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 1600px;
+    position: relative;
+    right: 0;
+    margin:0 auto;
+}
+nav ul{
+display: flex; 
+justify-content: flex-end;
+
+}
+nav li {
+    list-style: none;
+    display: block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+/*------------header-------------*/
+/*------------index-------------*/
+/*------------cccc-------------*/
+/*------------general-------------*/
+/*------------kontakt-------------*/
+/*------------responsive-------------*/
