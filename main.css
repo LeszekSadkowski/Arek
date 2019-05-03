@@ -23,6 +23,8 @@ nav {
     justify-content: space-between;
     height: 100px;
     background-color: blanchedalmond;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
@@ -51,8 +53,14 @@ nav li {
     line-height: 1.7em;
 }
 
+.currentPage a {
+    font-weight: 700;
+    color: grey;
+}
+
 .logo {
     height: 100%;
+    padding: 5px;
 }
 
 .logo img {
@@ -67,10 +75,23 @@ nav li {
 
 .hero {
     height: 500px;
-    background-color: azure;
-    background-image: url('img/33.jpg');
+    background-color: #F7BEA7;
+    background-image: url('img/hero-section1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.figure-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px
+}
+
+.indexInformation {
+    padding: 60px 30px;
+    height: 600px;
+    background-color: cadetblue;
+    background-color: cadetblue;
 }
 
 
@@ -81,6 +102,17 @@ nav li {
 
 
 /*------------kontakt-------------*/
+
+
+/* --------footer----------- */
+
+footer {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    background-color: #F7BEA7;
+    padding: 15px
+}
 
 
 /*------------responsive-------------*/

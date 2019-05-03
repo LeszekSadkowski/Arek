@@ -1,9 +1,9 @@
 <?php 
-include ('included/header.php');
-include ("included/nav.php");?> 
+include ('includes/header.php');
+include ("includes/nav.php");?> 
 
 
 
 
 <?php 
-include ('included/footer.php');?>
+include ('includes/footer.php');?>

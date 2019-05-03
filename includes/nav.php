@@ -4,7 +4,7 @@
     </div>
     <ul>
         <li><a href="index.php">strona główna</a></li>
-        <li><a href="#">jak wybrać</a></li>
+        <li><a href="configHelp.php">jak wybrać</a></li>
         <li><a href="order.php">zamów</a></li>
         <li><a href="contact.php">Kontakt</a></li>
     </ul>
