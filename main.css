@@ -5,10 +5,18 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Courgette', cursive;
 }
+
+font {
+    font-family: 'Courgette', cursive;
+}
+
+body {}
 
 a {
     text-decoration: none;
+    color: gray;
 }
 
 a:visited {
@@ -16,19 +24,35 @@ a:visited {
 }
 
 .wrapper {
-    max-width: 1600px;
+    max-width: 1920px;
     position: relative;
     right: 0;
     margin: 0 auto;
 }
 
+.contentWrapper {
+    max-width: 1800px;
+    position: relative;
+    right: 0;
+    margin: auto;
+}
+
 nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
-    height: 100px;
-    background-color: blanchedalmond;
+    height: 90px;
+    background-color: rgba(248, 227, 196, 1);
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
+    -webkit-box-shadow: 0px 15px 11px 0px rgba(248, 227, 196, 1), 0px -15px 11px 0px rgba(248, 227, 196, 1);
+    box-shadow: 0px 15px 51px 25px rgb(248, 227, 196), 0px -15px 11px 0px rgba(248, 227, 196, 1);
+    margin-bottom: 60px;
+    z-index: 99;
 }
 
 nav ul {
@@ -38,7 +62,10 @@ nav ul {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    padding-right: 60px;
 }
 
 nav li {
@@ -64,11 +91,11 @@ nav li {
 
 .logo {
     height: 100%;
-    padding: 5px;
+    padding: 20px 60px;
 }
 
 .logo img {
-    height: 100%;
+    height: 135px;
 }
 
 
@@ -79,14 +106,18 @@ nav li {
 
 .hero {
     height: 500px;
-    background-color: #f7bea7;
     background-image: url("img/hero-section1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: .75;
 }
 
 .figure-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 15px 0;
 }
@@ -115,6 +146,52 @@ label {
     display: none;
 }
 
+.contactSectionFull {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contactSection,
+.formWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.contactData,
+.formWrapper {
+    width: 50%;
+}
+
+input {
+    height: 45px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.contactData {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.slider {
+    margin-top: 10px
+}
+
+#contactForm {
+    width: 500px;
+    background-color: bisque;
+}
+
+.formRow {
+    margin: 10px;
+}
+
 #imageHolder {
     position: relative;
     height: 200px;
@@ -136,11 +213,18 @@ label {
 /* --------footer----------- */
 
 footer {
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 120px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    background-color: #f7bea7;
+    background-color: rgb(248, 227, 196);
+    box-shadow: 0px -15px 51px 25px rgba(248, 227, 196, 1);
     padding: 15px;
+    z-index: 99;
 }
 
 
