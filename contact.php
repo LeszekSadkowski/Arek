@@ -2,7 +2,7 @@
 include ('includes/header.php');?>
 <?php 
     include ("includes/nav.php");?>
-<div class='contentWrapper'>
+<div class='contentWrapper row'>
     <h1>Napisz do nas</h1>
 
     <div class='contactSectionFull'>

@@ -5,11 +5,13 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Courgette', cursive;
+    font-family: 'Philosopher', sans-serif;
+    color: rgb(158, 101, 26);
 }
 
-h1 {
-    margin-bottom: 90px;
+h1,
+h2 {
+    margin-bottom: 50px;
 }
 
 font {
@@ -18,11 +20,13 @@ font {
 
 a {
     text-decoration: none;
-    color: gray;
+    color: rgb(158, 101, 26);
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px #333333; */
 }
 
 a:visited {
-    color: gray;
+    color: rgb(158, 101, 26);
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
 .wrapper {
@@ -37,6 +41,10 @@ a:visited {
     position: relative;
     right: 0;
     margin: auto;
+}
+
+.row {
+    padding-top: 120px;
 }
 
 nav {
@@ -99,7 +107,7 @@ nav li a::after {
     margin: auto;
     */
     width: 20%;
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid rgb(158, 101, 26);
     opacity: 0;
     visibility: hidden;
     transition: .7s all;
@@ -126,8 +134,9 @@ nav li a {
 
 .currentPage a {
     font-weight: 700;
-    color: grey;
-    font-size: 17px;
+    color: rgb(158, 101, 26);
+    /* text-shadow: 2px 2px #333333; */
+    font-size: 20px;
 }
 
 .logo {
@@ -172,9 +181,22 @@ figure img {
 }
 
 .indexInformation {
-    padding: 60px 30px;
+    padding: 60px 120px;
     height: 600px;
     background-color: cadetblue;
+    margin-bottom: 120px
+}
+
+.indexText {
+    width: 1000px;
+    position: relative;
+    right: 0;
+    margin: auto;
+}
+
+.indexText p {
+    margin-bottom: 15px;
+    line-height: 1.6
 }
 
 
@@ -199,6 +221,10 @@ label {
     align-items: center;
 }
 
+.formWrapper {
+    justify-content: center;
+}
+
 .contactData,
 .formWrapper {
     width: 50%;
@@ -218,6 +244,10 @@ textarea {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+}
+
+.contactData p {
+    line-height: 1.9;
 }
 
 .slider {
