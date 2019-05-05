@@ -8,6 +8,10 @@
     font-family: 'Courgette', cursive;
 }
 
+h1 {
+    margin-bottom: 90px;
+}
+
 font {
     font-family: 'Courgette', cursive;
 }
@@ -69,8 +73,8 @@ nav ul {
 nav li {
     list-style: none;
     display: block;
-    border-bottom: 1px solid blue;
-    border-radius: 10px;
+    /* border-bottom: 1px solid blue;
+    border-radius: 10px; */
     margin: 0 10px;
     cursor: pointer;
     -webkit-border-radius: 10px;
@@ -78,13 +82,52 @@ nav li {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     text-align: center;
-    width: 7em;
+    width: 150px;
     line-height: 1.7em;
+    position: relative;
+    z-index: 5;
+}
+
+nav li a::after {
+    content: '';
+    position: absolute;
+    /*height: 30px;
+    */
+    bottom: 0;
+    left: -10PX;
+    /*right: 0;
+    margin: auto;
+    */
+    width: 20%;
+    border-bottom: 3px solid grey;
+    opacity: 0;
+    visibility: hidden;
+    transition: .7s all;
+    -webkit-transition: .7s all;
+    -moz-transition: .7s all;
+    -ms-transition: .7s all;
+    -o-transition: .7s all;
+}
+
+nav li:hover a::after {
+    opacity: 1;
+    visibility: visible;
+    width: 50%;
+    transform: translate(100%);
+    -webkit-transform: translate(100%);
+    -moz-transform: translate(100%);
+    -ms-transform: translate(100%);
+    -o-transform: translate(100%);
+}
+
+nav li a {
+    z-index: 5;
 }
 
 .currentPage a {
     font-weight: 700;
     color: grey;
+    font-size: 17px;
 }
 
 .logo {
