@@ -1,6 +1,10 @@
 <?php 
 include ('includes/header.php');?>
 <div class='hero'>
+    <div class="kiecaLogo">
+        <img src="img/kiecalogoGold.png" >
+        <img src="img/kiecalogoGold1.png">
+    </div>
 </div>
 
 <?php 
