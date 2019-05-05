@@ -14,8 +14,8 @@ include ('includes/header.php');?>
                         <input name='name' id='fieldName' type="text" placeholder='imię'>
                     </div>
                     <div class="formRow">
-                        <label for="fieldTelaphone">Telefon:</label>
-                        <input name='telephone' id='fieldTelaphone' type="tel" placeholder='Telefon'>
+                        <label for="fieldTelephone">Telefon:</label>
+                        <input name='telephone' id='fieldTelephone' type="tel" placeholder='Telefon'>
                     </div>
                     <div class="formRow">
                         <label for="fieldEmail">Email:</label>

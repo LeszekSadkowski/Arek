@@ -1,6 +1,7 @@
 <nav>
     <div class="logo">
-        <img src="img/kiecalogo.png" alt="" srcset="">
+        <img src="img/
+        .png" alt="" srcset="">
     </div>
     <ul>
         <li><a href="index.php">Strona główna</a></li>
