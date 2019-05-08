@@ -218,7 +218,13 @@ figure img {
 }
 
 
-/*------------cccc-------------*/
+/*------------order-------------*/
+
+.center {
+    position: relative;
+    right: 0;
+    margin: 30px auto;
+}
 
 
 /*------------kontakt-------------*/
