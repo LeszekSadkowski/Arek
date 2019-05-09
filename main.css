@@ -188,6 +188,7 @@ nav li a {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 15px 0;
+    position: relative;
 }
 
 figure {
@@ -196,6 +197,78 @@ figure {
 
 figure img {
     width: 100%;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+    -moz-transition: opacity 0.35s;
+    -ms-transition: opacity 0.35s;
+    -o-transition: opacity 0.35s;
+}
+
+.effectHover {
+    background: bisque
+}
+
+.effectHover:hover img {
+    opacity: .4;
+}
+
+.effectHover figcaption::before,
+.effectHover figcaption::after {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+.effectHover figcaption::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.effectHover figcaption::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+}
+
+.effectHover h2 {
+    padding-top: 30%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+}
+
+.effectHover p {
+    padding: 20px 2.5em;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+}
+
+.effectHover:hover figcaption::before,
+.effectHover:hover figcaption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.effectHover:hover h2,
+.effectHover:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .indexInformation {
@@ -221,9 +294,9 @@ figure img {
 /*------------order-------------*/
 
 .center {
-    position: relative;
-    right: 0;
-    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
 }
 
 
@@ -265,11 +338,11 @@ textarea {
     border: none;
     border-bottom: 1px solid rgba(207, 168, 59, 0.856);
     border-left: 2px solid rgba(158, 101, 26, 0.856);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 0 5px 0 5px;
+    -webkit-border-radius: 0 5px 0 5px;
+    -moz-border-radius: 0 5px 0 5px;
+    -ms-border-radius: 0 5px 0 5px;
+    -o-border-radius: 0 5px 0 5px;
 }
 
 input:focus,
