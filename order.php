@@ -21,9 +21,9 @@ include ("includes/nav.php");?>
 
 // window.onload = function() { setIframeHeight('ifrm', .8); }
 // window.onresize = function() { setIframeHeight('ifrm', .8); }
-var iframe = document.getElementById("konfig");
-var elmnt = iframe.contentWindow.document.getElementsByClassName("btn-primary");
-console.log(elmnt);
+// var iframe = document.getElementById("konfig");
+// var elmnt = iframe.contentWindow.document.getElementsByClassName("btn-primary");
+// console.log(elmnt);
 
 </script>
 <?php 
