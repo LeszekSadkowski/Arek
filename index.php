@@ -15,7 +15,7 @@ include ('includes/nav.php');?>
             <figure class="effectHover">
                 <img src="./img/hover3.jpg" alt="img06">
                 <figcaption>
-                    <h2>Crazy <span>Layla</span></h2>
+                    <h2>Obrączki<span><br/>wielokolorowe</span></h2>
                     <p>When Layla appears, she brings an eternal summer along.</p>
                     <a href="#">View more</a>
                 </figcaption>
@@ -23,7 +23,7 @@ include ('includes/nav.php');?>
             <figure class="effectHover">
                 <img src="./img/hover1.jpg" alt="img03">
                 <figcaption>
-                    <h2>Crazy <span>Layla</span></h2>
+                    <h2>Obrączki<span><br/>klasyczne</span></h2>
                     <p>When Layla appears, she brings an eternal summer along.</p>
                     <a href="#">View more</a>
                 </figcaption>
@@ -31,7 +31,7 @@ include ('includes/nav.php');?>
             <figure class="effectHover">
                 <img src="./img/hover2.jpg" alt="img03">
                 <figcaption>
-                    <h2>Crazy <span>Layla</span></h2>
+                    <h2>Obrączki<span><br/>z  kamieniami</span></h2>
                     <p>When Layla appears, she brings an eternal summer along.</p>
                     <a href="#">View more</a>
                 </figcaption>

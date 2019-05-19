@@ -1,11 +1,13 @@
 <?php 
 include ('includes/header.php');
 include ("includes/nav.php");?> 
-<div class='center'>
-    <iframe id='konfig' src="https://konfigurator.zlotyskorpion.com/detal/index.php?id=39181d09209cd4a287e1cacf5e9795c4" 
-    style="margin: 0;padding: 0; border: none; width: 1000px; height: 600px;" >
-    </iframe>
-</div>
+<div class="vanish"></div>
+    <div class='center'>
+        <iframe id='konfig' src="https://konfigurator.zlotyskorpion.com/detal/index.php?id=39181d09209cd4a287e1cacf5e9795c4" 
+        style="margin: 0;padding: 0; border: none;max-width: 1000px;width:100%; height: 600px;" >
+        </iframe>
+    </div>
+
 
 
 <script>
