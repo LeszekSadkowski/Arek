@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Courgette&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
     <script src="app.js"></script>
-    <script src="stickyMenu.js"></script>
+    <!-- <script src="stickyMenu.js"></script> -->
     <script>
     /*** TRANSITION AFTER GO TO SUBPAGE ***/
     var wrapper = document.querySelector('.vanish');
