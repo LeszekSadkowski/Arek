@@ -2,6 +2,8 @@ window.addEventListener('DOMContentLoaded', function() {
     let nav = document.querySelector('nav');
     let hero = document.querySelector('.hero');
     let scrollPos = window.scrollY;
+    let navLink = document.querySelectorAll('nav a');
+
 
 
     window.addEventListener('scroll', function(e) {

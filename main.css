@@ -175,6 +175,7 @@ nav li:nth-child(4).currentPage:hover a::after {
     width: 74%;
 }
 
+.sideMenu .currentPage,
 .currentPage a {
     font-weight: 700;
     color: rgb(158, 101, 26);
@@ -459,6 +460,27 @@ figure p {
     margin-bottom: 15px;
     line-height: 1.6;
 }
+
+
+/*------------config help-------------*/
+
+.helper {
+    display: flex;
+}
+
+.sidebar {
+    min-height: calc(100vh - 453px);
+    width: 300px;
+}
+
+.sideMenu li {
+    list-style: none;
+    display: block;
+    height: 2em;
+    cursor: pointer;
+}
+
+.active {}
 
 
 /*------------order-------------*/
