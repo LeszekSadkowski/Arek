@@ -1,30 +1,82 @@
 <h1>Podsumowanie zamówienia</h1>
 
+<form action="purchase" method="post">
+    <label for="">Rozmiar obrączki damskiej
+        <input id='' type="text" value='lol' readonly>
+    </label>
+    <label for="">Rozmiar obrączki męskiej
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Waga obrączki damskiej
+        <input id='' type="text" value=''   readonly>
+    </label>
+    <label for="">Waga obrączki męskiej
+        <input id='' type="text" value=''  readonly >
+    </label>
+    <label for="">Waga białego złota palladowego w obrączce damskiej
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Waga białego złota palladowego w obrączce męskiej
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Waga całego zamówienia
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Opis oprawy kamieni
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Znacznik Pallad
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Znacznik Rodowanie
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Napis na obrączce damskiej
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Napis na obrączce męskiej
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Numer czcionki
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Wybrane kolory
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Wzór obrączek
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Cena całkowita
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Wysokość obrączek
+        <input id='' type="text" value=''  readonly>
+    </label>
+    <label for="">Szerokość obrączek
+        <input id='' type="text" value=''  readonly>
+    </label>
+</form>
 
-
-
-
-
-<?php
-echo "<p>" . $_POST['ZS_rozmiar_1'] . "</p>";
-?>
-<!-- // echo "<p>$_POST['ZS_rozmiar_2'];</p>"
-// echo "<p>$_POST['ZS_waga_1'];</p>"
-// echo "<p>$_POST['ZS_waga_2'];</p>"
-// echo "<p>$_POST['ZS_pallad_1'];</p>"
-// echo "<p>$_POST['ZS_pallad_2'];</p>"
-// echo "<p>$_POST['ZS_waga'];</p>"
-// echo "<p>$_POST['ZS_pallad'];</p>"
-// echo "<p>$_POST['ZS_rodowanie'];</p>"
-// echo "<p>$_POST['ZS_napis_1'];</p>"
-// echo "<p>$_POST['ZS_napis_2'];</p>"
-// echo "<p>$_POST['ZS_czcionka'];</p>"
-// echo "<p>$_POST['ZS_kolory'];</p>"
-// echo "<p>$_POST['ZS_wzor'];</p>"
-// echo "<p>$_POST['ZS_cena'];</p>"
-// echo "<p>$_POST['ZS_wysokosc'];</p>"
-// echo "<p>$_POST['ZS_szerokosc'];</p>" -->
-
+<!-- <?php
+echo "<p>Rozmiar obrączki damskiej" . $_POST['ZS_rozmiar_1'] ."</p>";
+echo "<p>Rozmiar obrączki męskiej" . $_POST['ZS_rozmiar_2']."</p>";
+echo "<p>Waga obrączki damskiej". $_POST['ZS_waga_1']."</p>";
+echo "<p>Waga obrączki męskiej". $_POST['ZS_waga_2']."</p>";
+echo "<p>Waga białego złota palladowego w obrączce męskiej". $_POST['ZS_pallad_1']."</p>";
+echo "<p>Waga białego złota palladowego w obrączce męskiej". $_POST['ZS_pallad_2']."</p>";
+echo "<p>Waga całego zamówienia". $_POST['ZS_pallad_2']."</p>";
+echo "<p>Opis oprawy kamieni". $_POST['ZS_waga']."</p>";
+echo "<p>Znacznik Pallad". $_POST['ZS_pallad']."</p>";
+echo "<p>Znacznik Rodowanie". $_POST['ZS_rodowanie']."</p>";
+echo "<p>Napis na obrączce damskiej". $_POST['ZS_napis_1']."</p>";
+echo "<p>Napis na obrączce męskiej". $_POST['ZS_napis_2']."</p>";
+echo "<p>Numer czcionki". $_POST['ZS_czcionka']."</p>";
+echo "<p>Wybrane kolory". $_POST['ZS_kolory']."</p>";
+echo "<p>Wzór obrączek". $_POST['ZS_wzor']."</p>";
+echo "<p>Cena całkowita". $_POST['ZS_cena']."</p>";
+echo "<p>Wysokość obrączek". $_POST['ZS_wysokosc']."</p>";
+echo "<p>Szerokość obrączek". $_POST['ZS_szerokosc']."</p>";
+?> -->
 
 <!-- // ZS_rozmiar_1	Rozmiar obrączki damskiej	REAL - np. 12.0	
 // ZS_rozmiar_2	Rozmiar obrączki męskiej	REAL - np. 24.5
